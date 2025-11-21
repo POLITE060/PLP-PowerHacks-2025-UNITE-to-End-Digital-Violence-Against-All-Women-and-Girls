@@ -1,0 +1,46 @@
+<!doctype html>
+<div class="mt-6">
+<h3 class="font-semibold">Recent reports (local)</h3>
+<div id="reports" class="mt-3 space-y-3 max-h-64 overflow-auto"></div>
+</div>
+</section>
+
+
+<!-- Sidebar: pledge + resources + quick stats -->
+<aside class="card p-4">
+<h3 class="font-semibold">Pledge</h3>
+<p class="text-sm text-slate-500 mt-1">Stand with survivors. Share responsibly.</p>
+<div class="mt-3">
+<label class="inline-flex items-center gap-2"><input type="checkbox" id="pledge-cb" class="h-4 w-4" /> <span>I pledge to stand against digital violence</span></label>
+</div>
+
+
+<div class="mt-5">
+<h4 class="font-semibold">Resources</h4>
+<ul class="text-sm text-slate-600 mt-2 list-disc pl-4 space-y-1">
+<li>Platform reporting guides</li>
+<li>Legal aid & counseling</li>
+<li>Privacy & safety checklists</li>
+</ul>
+</div>
+
+
+<div class="mt-6">
+<h4 class="font-semibold">Quick Actions</h4>
+<button onclick="shareMessage()" class="mt-2 w-full px-3 py-2 bg-slate-800 text-white rounded-md text-sm">Share campaign</button>
+</div>
+
+
+</aside>
+
+
+<!-- Admin dashboard anchor -->
+<section id="admin" class="lg:col-span-3 card p-6">
+<div id="admin-root"></div>
+</section>
+</main>
+
+
+<footer class="max-w-6xl mx-auto px-6 py-6 text-sm text-slate-500">
+Built with  to end digital violence. This demo stores reports locally unless a backend is configured.
+</footer>
